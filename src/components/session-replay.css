@@ -1,0 +1,40 @@
+.replay-pane {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+.replay-pane::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.replay-pane::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.replay-pane::-webkit-scrollbar-thumb {
+  background-color: var(--color-line-strong);
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 999px;
+}
+
+.replay-pane-dark {
+  scrollbar-color: rgb(232 237 244 / 0.26) transparent;
+}
+
+.replay-pane-dark::-webkit-scrollbar-thumb {
+  background-color: rgb(232 237 244 / 0.26);
+}
+
+/* Inset so the ring never pushes layout or clips at the pane edge. */
+.replay-pane:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .replay-pane {
+    scroll-behavior: auto;
+  }
+}

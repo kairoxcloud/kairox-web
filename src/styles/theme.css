@@ -1,0 +1,45 @@
+@theme {
+  /* One theme by brand decision. Nothing flips, so the tokens carry no light variants. */
+  --color-void: #08080b;
+  --color-sunken: #0a0a0f;
+  --color-surface: #0e0e14;
+  --color-raised: #15151d;
+  --color-line: #1e1e28;
+  --color-line-strong: #2c2c3a;
+
+  --color-ink: #f4f4f8;
+  --color-ink-dim: #9a9ab0;
+  --color-ink-muted: #71718a;
+
+  /* The one accent: primary action, active state, figures and blooms. Nowhere else. */
+  --color-accent: #7c5cff;
+  --color-accent-bright: #9b85ff;
+  --color-accent-deep: #6242e0;
+  --color-accent-soft: #16112c;
+  --color-accent-line: #2f2554;
+
+  --color-terminal: #08080b;
+  --color-terminal-ink: #e6e6ef;
+
+  --font-display: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  --radius-chip: 9px;
+  --radius-input: 12px;
+  --radius-card: 18px;
+  --radius-frame: 26px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 18px 40px -20px rgb(0 0 0 / 0.9);
+  --shadow-lifted: 0 1px 0 rgb(255 255 255 / 0.06) inset, 0 40px 80px -32px rgb(0 0 0 / 0.95);
+  --shadow-accent:
+    0 1px 0 rgb(255 255 255 / 0.28) inset, 0 0 0 1px rgb(124 92 255 / 0.4),
+    0 10px 30px -8px rgb(124 92 255 / 0.65);
+  --shadow-accent-hover:
+    0 1px 0 rgb(255 255 255 / 0.34) inset, 0 0 0 1px rgb(155 133 255 / 0.5),
+    0 14px 40px -8px rgb(124 92 255 / 0.8);
+  --shadow-chip: 0 0 0 1px rgb(124 92 255 / 0.35), 0 6px 16px -6px rgb(124 92 255 / 0.7);
+
+  --ease-page: cubic-bezier(0.16, 1, 0.3, 1);
+}
