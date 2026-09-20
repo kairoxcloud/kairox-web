@@ -1,14 +1,16 @@
 <div align="center">
   <img src="src/assets/kairox-logo.png" alt="Kairox" width="280">
-  <p><strong>A cloud workspace where an AI agent writes code for you.</strong></p>
+  <p><strong>A cloud coding agent that gets its own machine for every session.</strong></p>
 </div>
 
 ## What Kairox is
 
-Most coding assistants live in a chat box. They can write a patch, but they cannot run it.
+Kairox is a cloud coding agent. You give it a task, and it does the work on your codebase in the
+cloud rather than on your laptop.
 
-Kairox gives the agent a real machine instead. Every session starts a container of its own, with
-a real shell, a real file system and git. The agent installs packages, edits files, runs your test
+Most coding assistants live in a chat box. They can write a patch, but they cannot run it. Kairox
+gives the agent a real machine instead. Every session starts a container of its own, with a real
+shell, a real file system and git. The agent installs packages, edits files, runs your test
 suite and reads what came back, the same way you would.
 
 ## How a session works
