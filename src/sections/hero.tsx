@@ -26,12 +26,16 @@ export function Hero() {
         className="mx-auto flex max-w-[860px] flex-col items-center text-center"
       >
         <motion.div variants={rise}>
-          <Badge tag="Kairox">The coding agent that gets its own machine</Badge>
+          <Badge tag="Kairox">Not open yet</Badge>
         </motion.div>
 
         <motion.h1 id="hero-heading" variants={rise} className="t-display t-wash mt-8 text-balance">
           Give the agent a real machine, <span className="tail">not a chat box</span>
         </motion.h1>
+
+        <motion.p variants={rise} className="t-lead text-ink-muted measure mt-7 text-balance">
+          Kairox is a cloud coding agent. Every session gets a container and a branch of its own.
+        </motion.p>
       </motion.div>
 
       <motion.div
